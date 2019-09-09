@@ -1,0 +1,68 @@
+.resume {
+  border-style: solid;
+  width: 1000px;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 0.25em;
+  padding: 0.5em;
+  margin-top: 20px;
+}
+
+.wrapper {
+  display: grid;
+  border: solid black;
+  grid-template-columns: 3 1fr;
+  grid-template-rows: 6 1fr;
+  grid-auto-flow: row;
+}
+.name-title {
+  grid-column: 1/3;
+  grid-row: 1;
+}
+.profile {
+  grid-column: 1/3;
+  grid-row: 2;
+}
+.address {
+  grid-column: 1/3;
+  border-bottom: 4px dotted black;
+}
+.experience {
+  grid-column: 1/3;
+  grid-row: 4;
+}
+.skills {
+  grid-column: 1/2;
+  grid-row: 5;
+}
+.education {
+  grid-column: 2/3;
+  grid-row: 5;
+}
+.projects {
+  grid-column: 1/3;
+  grid-row: 6;
+}
+
+.certifications {
+  grid-column: 1/2;
+  grid-row: 7;
+}
+.interests {
+  grid-column: 2/3;
+  grid-row: 7;
+}
+
+.wrapper > div {
+  background-color: #d3d3d3;
+  padding: 1em;
+  display: grid;
+}
+
+.wrapper > div:nth-child(odd) {
+  background-color: #dddddd;
+}

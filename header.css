@@ -1,0 +1,12 @@
+header {
+    width: 100%;
+    background-color: chocolate;
+    height: 60px;
+    display: flex;
+    flex-basis: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px; 
+    padding-right: 10px;
+    font-family: 'Manjari', sans-serif;
+}
